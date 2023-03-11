@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Library</title>
+    <meta name="description" content="Library landing page">
+    <meta name="keywords" content="Library, Landing page">
+    <meta name="author" content="Igor Borba">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <script src="view/header.js"></script>
+    <script src="view/banner.js"></script>
+    <script src="view/founders.js"></script>
+    <script src="view/paragraph.js"></script>
+    <script src="view/footer.js"></script>
+    
+    
+    <header>
+        <!-- Criados elementos com manipulação do shadow dom -->
+        <brand-library alt="Logo library" title="Library" content="The greatest library of the world"></brand-library>
+    </header>
+    
+    <section>
+        <banner-library alt="Banner com livros" title="Livraria" src="images/banner-1.jpg"></banner-library>
+    </section>
+    
+    <article>
+        <!-- Criados elementos com manipulação do shadow dom -->
+        <founders-library src="images/image1.jpg" alt="Lula lá" title="Lula lá" name="John Smith"  description="Great entrepreneur who helps for society"></founders-library>
+        <founders-library src="images/image2.jpg" alt="Simão Ben Jonas" title="Simão Ben Jonas" name="Simão Ben Jonas" description="Notorius leader and intellectual"></founders-library>
+        <founders-library src="images/image3.jpg" alt="Joana Domrémy" title="Joana Domrémy" name="Joana Domrémy" description="Distinguished leader who revolutionized technology "></founders-library>
+        
+        <!-- Elemento modificado via api javascript -->
+        <div id="paragraph"  paragraph="As founders of this library, we are committed to creating a vibrant and 
+        engaging community space that celebrates the joy of reading and the power of knowledge. 
+        We invite you to explore our website and discover all that our library has to offer." is="paragraph-library"></div> 
+
+        <div class="center"><a href="contact.html"><button>Contact us</button></a></div>
+    </article>
+
+    <footer>
+        <div content="Rua dos Dev, nº 1, Jardim Europa - Porto Alegre/RS - CNPJ: 20.946.667/0001-99. Imagens meramente ilustrativas." is="footer-library"></div>
+    </footer>
+
+
+    
+</body>
+</html>

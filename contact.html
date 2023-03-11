@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Library</title>
+    <meta name="description" content="Library landing page">
+    <meta name="keywords" content="Library, Landing page">
+    <meta name="author" content="Igor Borba">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <script src="view/header.js"></script>
+    <script src="view/form.js"></script>
+    <script src="view/banner.js"></script>
+    <script src="view/paragraph.js"></script>
+    <script src="view/footer.js"></script>
+
+    
+    <header>
+        <!-- Criados elementos com manipulação do shadow dom -->
+        <brand-library alt="Logo library" title="Library" content="The greatest library of the world"></brand-library>
+    </header>
+
+    <section>
+        <banner-library alt="Banner com livros" title="Livros" src="images/contact.jpg"></banner-library>
+    </section>
+    
+    <article>
+        <!-- Elemento modificado via api javascript -->
+        <div id="paragraph" paragraph="If you have any ideas or suggestions for how we can better serve you, please do not hesitate to let us know." is="paragraph-library"></div> 
+
+        <div class="form">
+            <form-library title="Full name" placeholder="Igor Campos de Borba"></form-library>
+            <form-library title="E-mail" placeholder="teste@hotmail.com"></form-library>
+            <form-library title="Message" placeholder="Write your message here." dialogBox="true" rows="7" cols="21"></form-library>
+            <div class="center"><a href="index.html"><button>Send message</button></a></div>
+        </div>
+        
+    </article>
+
+    <footer>
+        <div content="Rua dos Dev, nº 1, Jardim Europa - Porto Alegre/RS - CNPJ: 20.946.667/0001-99. Imagens meramente ilustrativas." is="footer-library"></div>
+    </footer>
+
+
+    
+</body>
+</html>
